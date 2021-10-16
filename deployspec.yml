@@ -1,0 +1,5 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - TAG=$IMAGE_TAG ecspresso deploy --config ecspresso/$ENV/ecspresso.yml
